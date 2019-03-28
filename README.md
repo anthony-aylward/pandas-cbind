@@ -3,5 +3,5 @@ R-like `cbind` for pandas data frames. (see [cbind](https://stat.ethz.ch/R-manua
 
 ```python
 def cbind(*data_frames):
-    return pd.concat(data_frames, axis=1, ignore_index=True)
+    return pd.concat(data_frames, axis=1)
 ```
